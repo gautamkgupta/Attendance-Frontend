@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pac-container {
+  z-index: 9999 !important;
+  /* Adjust the z-index value as needed */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  /* line-height: 1.6; */
+  color: #000;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+.custom-btn {
+  background: #114C5F;
+  color: #fff !important;
+  border-radius: 5px;
+  width: 110px;
+  height: 40px;
+}
+
+.custom_btn {
+  background: #114C5F;
+  color: #fff !important;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.custom_btn1 {
+  background: #4a6e2c;
+  color: #fff !important;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.Pay_btn {
+  background: #114C5F;
+  color: #fff !important;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.black_btn {
+  background: #000;
+  color: #fff !important;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.banner-btn {
+  background: #fff;
+  color: #008DB3;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 700;
+
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600 !important;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button,
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* slider css */
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+
+.slick-prev {
+  left: -52px !important;
+}
+
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #56c8db;
+  font-size: 30px;
+  position: relative;
+}
+
+.bi_arrow {
+  color: #2bace2;
+  width: 30px !important;
+}
+
+/* Table global css */
+.table th {
+  color: #55C8DB;
+  padding: 15px 10px;
+}
+
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  min-height: 76vh;
+  background: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.save_as a {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.savedAddDataArray li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  & span {
+    font-weight: 700;
+  }
+
+  & p {
+    font-size: 12px;
+  }
+}
+
+.anotherAdd {
+  color: #008DB3;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 2em;
+}
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    display: none !important;
+  }
+}
